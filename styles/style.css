@@ -1,0 +1,170 @@
+/* header section style */
+
+.header-container {
+    background-image: url('hero_bg.png');
+    /* width: 1340px;
+    height: 652px; */
+    /* text-align: center;
+    align-items: center; */
+    /* margin: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.banner-title {
+    height: 320px;
+}
+
+.header-button {
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* main section style */
+.main-container {
+    /* display: block; */
+    /* text-align: center; */
+    margin-left: 97px;
+    margin-right: 97px;
+    /* margin: auto; */
+}
+
+.section1 {
+    /* width: 1140px;
+    height: 1393px; */
+    width: 946px;
+    height: 336px;
+    /* height: 317px; */
+    justify-content: center;
+    margin: auto;
+    border-radius: 26px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+}
+
+
+.margin-48 {
+    margin: 48px;
+    width: 946px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.main-title {
+    width: 852px;
+    height: 115px;
+    text-align: center;
+    margin-left: 165px;
+    margin: auto;
+}
+
+.mainskill-1 {
+    width: 946px;
+    height: 200px;
+    margin-left: 144px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mainskill-1-title {
+    justify-content: stretch;
+    position: relative;
+}
+
+.mainskill-1-button {
+    width: 150px;
+    height: 48px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-left: 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    text-decoration-line: underline;
+}
+
+
+/* terget container */
+.terget-title {
+    text-align: center;
+}
+
+.terger-skill-container {
+    display: flex;
+    gap: 24px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.htmlcard {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.csscard {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.jscard {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.htmlcard-btn {
+    width: 171px;
+    height: 47px;
+    justify-content: stretch;
+    /* align-items: center; */
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.support-container {
+    background-image: url('handshake.jpg');
+    height: 314px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.need-support {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.button-container {
+    text-align: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 79px;
+    margin-left: 97px;
+    margin-right: 97px;
+    /* width: 1140px;
+    height: 100px; */
+}
